@@ -66,6 +66,7 @@
 ## 状态码判断
 
 ```
+	int httpRetCode;
 	httpRetCode = web_get_int_property(HTTP_INFO_RETURN_CODE);
 	if (httpRetCode == 200)
 		lr_end_transaction("agent_authentication", LR_PASS);
