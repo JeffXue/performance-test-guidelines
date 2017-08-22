@@ -37,6 +37,15 @@
 		"RB=",
 		"Search=Body",
 		LAST);
+
+	// 关联多个数据，保存为Array
+	web_reg_save_param("orderNums",
+		"LB=\"orderNum\":\"",
+		"RB=\"",
+	    "ORD=All",
+		"Search=Body",
+		LAST);
+
 ```
 
 ## 自定义请求
